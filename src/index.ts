@@ -20,6 +20,9 @@ import {
   restoBackendSkill,
   restoFrontendSkill,
   restoChatSkill,
+  restoPlanSkill,
+  restoVerifySkill,
+  restoLearnSkill,
 } from "./skills.js";
 
 const server = new Server(
