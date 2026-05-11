@@ -95,6 +95,8 @@ Transform natural language into professional code:
 
 ### Installation
 
+**Option 1: Install from GitHub (Recommended)**
+
 ```bash
 # Clone the repository
 git clone https://github.com/IrshaGlobal/resto.git
@@ -106,6 +108,17 @@ npm install
 # Build the server
 npm run build
 ```
+
+**Option 2: Quick Setup with npx**
+
+If you have Node.js installed, you can use it directly without cloning:
+
+```bash
+# Use npx to run directly from GitHub
+npx github:IrshaGlobal/resto
+```
+
+> **Note:** For production use, we recommend Option 1 (cloning) for better control and updates.
 
 ### Configure Your IDE
 
@@ -186,6 +199,11 @@ Add to `.vscode/mcp.json`:
 </details>
 
 > 💡 **Tip:** Replace `/absolute/path/to/` with your actual installation path.
+>
+> **Find your path:**
+> - **Windows:** `cd resto && echo %CD%\dist\index.js`
+> - **Mac/Linux:** `cd resto && pwd` then append `/dist/index.js`
+> - **Example:** `/home/user/resto/dist/index.js` or `C:\Users\user\resto\dist\index.js`
 
 ---
 
